@@ -1,0 +1,57 @@
+body{font-family: 'Montserrat', sans-serif;}
+/* Navbar Start */
+header .navbar ul li a{color: white; transition: .5s;}
+header .navbar ul li a:hover{color: #f42f2c;}
+/* .container{padding: 0px 1% 0px 8%;} */
+.navbar-brand{margin: unset; padding: unset;}
+/* Navbar End */
+/* Banner Area Start */
+.banner-area{background-image: url(imgs/hero-bg.jpg.webp); 
+    background-position: center;
+    height: 100vh;}
+.delicious-recipes{margin: 15% 0px;}
+button.menu{
+    background-color: #f42f2c;
+    border-radius: unset;
+    border-color: transparent;
+    line-height: 42px;
+    transition: .4s;
+    padding: 2%;}
+button.menu:hover{
+    background-color: #222;
+    border-color: transparent;}
+/* Banner Area End */
+
+/* About Our Story Start */
+.about-our-story{height: 40vh;margin: 12% 0px; background-color: rgba(255, 255, 255, 0.664);}
+.about-our-story p{color: gray;padding-right: 15%;margin: 5% 0px;}
+button.btn-secondary{
+    background-color: #f42f2c;
+    border-radius: unset;
+    border-color: transparent;
+    padding:1.5% ;}
+
+/* About Our Story End */
+
+/* Menu Start */
+h1{text-align: center; font-size: 36px; font-weight: bold;}
+
+.list-group-horizontal{display: flex; justify-content: center;}
+.menu-area li{padding: 2% 3%;}
+.menu-area ul{box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: unset;}
+.breakfast,.dinner,.budget-meal,.lunch,.buffet{box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;box-sizing: border-box;}
+.price{color: #f42f2c; font-weight: bold;}
+.menu-area .menu .active{background-color: #f42f2c;}
+
+
+
+/* Menu End */
+
+/* Reserve Start */
+.reserve-area{background: url(imgs/reservation-bg.jpg.webp)  no-repeat ; height: 80vh; background-position: left; position: absolute ;}
+.overlay-bg{background: rgba(17,22,24,0.75); z-index: 1;height: 100%; position: absolute;}
+.reserve-area .container .row .text{z-index: 0;position: relative;}
+
+
+
+/* Reserve End */
